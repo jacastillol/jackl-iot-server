@@ -1,0 +1,6 @@
+# directories
+__pycache__/
+venv/
+.vscode/
+# files
+db.sqlite3
