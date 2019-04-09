@@ -1,9 +1,9 @@
 #!/user/bin/env python3
 
 import RPi.GPIO as GPIO
-from mfrc522 import SimpleMRFC522
+from mfrc522 import SimpleMFRC522
 
-reader = SimpleMRFC522()
+reader = SimpleMFRC522()
 
 try:
     print('Now place your tag to read info')
