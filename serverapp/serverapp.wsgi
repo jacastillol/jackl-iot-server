@@ -2,7 +2,7 @@
 
 import os
 base_dir = os.path.dirname(__file__)
-env_dir = os.path.join(base_dir, '/venv/bin')
+env_dir = os.path.join(base_dir, 'venv/bin')
 activate_this = os.path.join(env_dir, 'activate_this.py')
 
 with open(activate_this) as file:
