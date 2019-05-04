@@ -1,4 +1,5 @@
 flask
-flask-sqlachemy
 flask-wtf
 flask-bootstrap
+flask-sqlalchemy
+flask-migrate
